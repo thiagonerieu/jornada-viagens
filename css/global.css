@@ -5,7 +5,6 @@
     font-display: swap;
 }
 
-
 :root {
     --primary-color: #8f0101;
     --secondary-color: #b81515;
@@ -28,14 +27,23 @@ img,
 h1,
 p,
 fieldset,
-legend, label, input, select, textarea, button {
+legend, 
+label, 
+input, 
+select, 
+textarea, 
+button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1 {
+/* h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: var(--titles-weigth);
     color: var(--primary-color);
+} */
+
+body {
+    font-family: "Montserrat";
 }
