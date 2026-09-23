@@ -1,0 +1,105 @@
+.offers {
+    margin-bottom: 104px;
+}
+
+.offers-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.offers-cards .card {
+    color: var(--text-secondary-color);
+    background-color: black;
+    width: 312px;
+    height: 288px;
+    box-sizing: border-box;
+    padding: 24px 16px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.offers-cards .card header {
+    display: block;
+    background-color: transparent;
+    position:static;
+    padding: 0;
+    margin-bottom: 24px;                                                                                
+}                                                                                                                                           
+
+.offers-cards .card header p {
+    font-size: 20px;
+    font-weight: var(--text-weigth);
+}
+
+.offers-cards .card header h3 {
+    font-size: 40px;
+    font-weight: var(--title-weigth);
+    margin: 8px 0 0;
+}
+
+.offers-cards .card header span {
+    font-size: 32px;                                             
+    margin-top: 24px;
+    display: inline-block;
+    font-weight: var(--title-weigth);
+}
+
+.offers-cards .card.japao {
+    background: url(../img/bg-card-japao.webp) no-repeat;
+    background-size: cover;
+}
+
+.offers-cards .card.san-andreas {
+    background: url(../img/bg-san-andreas.webp) no-repeat;
+    background-size: cover;
+}
+
+.offers-cards .card.paraiba {
+    background: url(../img/bg-paraiba.webp) no-repeat;
+    background-size: cover;
+}
+
+.offers-cards .card.manaus {
+    background: url(../img/bg-manaus.webp) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {    
+    .offers-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 420px;
+        height: 308px;
+    }
+
+    .card header h3 {
+        font-size: 48px;
+    }
+
+    .card header span {
+        font-size: 40px;                                             
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
+        width: 588px;
+        height: 308px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .offers-cards {
+        width: 1250px;
+        margin: 0 auto;
+    }
+}

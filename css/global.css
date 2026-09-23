@@ -16,7 +16,7 @@
     --text-primary-color: #222222;
     --text-secondary-color: #ffffff;
     
-    --titles-weigth: 700;
+    --title-weigth: 700;
     --text-weigth: 400;
     --menu-text-weigth: 500;
 }
@@ -40,10 +40,51 @@ button {
 
 /* h1 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: var(--titles-weigth);
+    font-weight: var(--title-weigth);
     color: var(--primary-color);
 } */
 
 body {
     font-family: "Montserrat";
+    color: var(--text-primary-color);
+}
+
+.section-title h2 {
+    font-size: 28px;
+    font-weight: var(--title-weigth);
+    margin: 0;
+    text-align: center;
+}
+
+.section-title hr {
+    width: 180px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 16px auto 32px;
+}
+
+.button {
+    width: 280px;
+    height: 64px;
+    color: var(--text-secondary-color);
+    font-weight: var(--title-weigth);
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 16px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+    .section-title h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .button:hover {
+        background-color: var(--primary-color);
+    }
 }
