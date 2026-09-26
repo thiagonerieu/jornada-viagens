@@ -7,10 +7,6 @@
     width: 100%;
 }
 
-.payments .content-container {
-    display: flex;
-}
-
 .payments .content-container .image-gallery .image.first {
     background: url(../img/gallery1-mobile.webp) no-repeat;
     background-size: cover;
@@ -30,7 +26,7 @@
     grid-column: span 2;
 }
 
-@media screen and (width: 768px) {
+@media screen and (min-width: 768px) {
     .payments .content-container .image-gallery .image.first {
         background: url(../img/gallery1-tablet.webp) no-repeat;
         background-size: cover;
@@ -47,10 +43,11 @@
     }
 }
 
-@media screen and (width: 440px) {
+@media screen and (min-width: 1440px) {
     .payments .content-container {
+        display: flex;
         justify-content: space-between;
-    }
+    }   
     
     .payments .content-container .text-content {
         width: 360px;
@@ -58,5 +55,6 @@
 
     .payments .content-container .image-gallery {
         width: 790px;
+        margin: 0;
     }
 }
