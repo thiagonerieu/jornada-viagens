@@ -26,6 +26,37 @@
     grid-column: span 2;
 }
 
+/* PACOTES DE VIAGENS */
+.payments .content-container .image-gallery .travel-packages.image.first {
+    background: url(../img/travel-packages/japan-gallery1-mobile.webp) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .travel-packages.image.second {
+    background: url(../img/travel-packages/japan-gallery2-mobile.webp) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .travel-packages.image.thirdy {
+    background: url(../img/travel-packages/japan-gallery3-mobile.webp) no-repeat;
+    background-size: cover;
+}
+
+.travel-packages.button {
+    min-width: 312px;
+    margin-top: 24px;
+    height: 64px;
+    color: var(--text-secondary-color);
+    font-weight: var(--title-weigth);
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 16px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 64px;
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .payments .content-container .image-gallery .image.first {
         background: url(../img/gallery1-tablet.webp) no-repeat;
