@@ -57,22 +57,22 @@
         background: url(../img/gallery3-tablet.webp) no-repeat;
         background-size: cover;
     }
-}
 
-/* PACOTES DE VIAGENS */
-.payments .content-container .image-gallery .travel-packages.image.first {
-    background: url(../img/travel-packages/japan-gallery1-mobile.webp) no-repeat;
-    background-size: cover;
-}
+    /* PACOTES DE VIAGENS */
+    .payments .content-container .image-gallery .travel-packages.image.first {
+        background: url(../img/travel-packages/japan-gallery1-tablet.webp) no-repeat;
+        background-size: cover;
+    }
 
-.payments .content-container .image-gallery .travel-packages.image.second {
-    background: url(../img/travel-packages/japan-gallery2-mobile.webp) no-repeat;
-    background-size: cover;
-}
+    .payments .content-container .image-gallery .travel-packages.image.second {
+        background: url(../img/travel-packages/japan-gallery2-tablet.webp) no-repeat;
+        background-size: cover;
+    }
 
-.payments .content-container .image-gallery .travel-packages.image.thirdy {
-    background: url(../img/travel-packages/japan-gallery3-mobile.webp) no-repeat;
-    background-size: cover;
+    .payments .content-container .image-gallery .travel-packages.image.thirdy {
+        background: url(../img/travel-packages/japan-gallery3-tablet.webp) no-repeat;
+        background-size: cover;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -88,5 +88,21 @@
     .payments .content-container .image-gallery {
         width: 790px;
         margin: 0;
+    }
+
+    /* PACOTES DE VIAGENS */
+    .payments .content-container .image-gallery .travel-packages.image.first {
+        background: url(../img/travel-packages/japan-gallery1-desktop.webp) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-gallery .travel-packages.image.second {
+        background: url(../img/travel-packages/japan-gallery2-desktop.webp) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-gallery .travel-packages.image.thirdy {
+        background: url(../img/travel-packages/japan-gallery3-desktop.webp) no-repeat;
+        background-size: cover;
     }
 }
